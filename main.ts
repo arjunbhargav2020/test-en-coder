@@ -20,5 +20,5 @@ basic.forever(function () {
     OrientBit.getwheelPulseCount(OrientBit.wheelSide.right),
     1
     )
-    basic.pause(500)
+    basic.pause(100)
 })
