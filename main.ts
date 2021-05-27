@@ -1,4 +1,3 @@
-# Comment from git hub
 OrientBit.enableEncoder(
 DigitalPin.P0,
 DigitalPin.P1,
