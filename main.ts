@@ -6,6 +6,7 @@ DigitalPin.P1,
 )
 OLED12864_I2C.init(60)
 maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 30)
+basic.pause(100)
 basic.forever(function () {
     OLED12864_I2C.showNumber(
     0,
